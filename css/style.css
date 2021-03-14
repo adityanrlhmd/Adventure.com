@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+  margin: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  /* jika anda menggunakan safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 35px;
+  background: white;
+}
+
+header nav .kiri {
+  margin-right: 45px;
+}
+
+header nav .kiri ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kiri ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header nav .kiri ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #8f8f8f;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header nav .kiri ul li a:hover {
+  color: black;
+}
+
+header nav .tengah {
+  margin: 0 auto;
+}
+
+header nav .kanan {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+header nav .kanan ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kanan ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav .kanan ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main .jumbotron {
+  background: url("https://adventure.com/wp-content/uploads/2021/03/Tassie-Overland-life-gratitude-and-snacks-Adventure-is-right-here-Photo-credit-Tayla-Gentle-1180x885.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+}
+
+main .jumbotron .lapis {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+main .jumbotron .lapis .container {
+  padding: 20px 400px 70px 400px;
+  text-align: center;
+}
+
+main .jumbotron .lapis .container .judul {
+  font-family: 'Playfir Display';
+  color: white;
+  font-size: 28px;
+  margin-bottom: 85px;
+  font-weight: bold;
+}
+
+main .jumbotron .lapis .container .read {
+  margin-bottom: 35px;
+}
+
+main .jumbotron .lapis .container .read a {
+  text-decoration: none;
+  margin: 0 auto;
+  border: 1px solid white;
+  padding: 12px 45px;
+  color: white;
+  font-family: 'Raleway';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+main .jumbotron .lapis .container .read a:hover {
+  background-color: white;
+  color: black;
+}
+
+main .jumbotron .lapis .container .text p a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 1.5px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+main .list .container {
+  padding: 20px 100px;
+}
+
+main .list .container .banner ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+main .list .container .banner ul li {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+main .list .container .banner ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+main .list .container .banner ul li a p {
+  margin-top: -1px;
+  margin-left: 5px;
+}
+
+main .list .container .banner ul li a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+main .list .container .banner ul li .people {
+  color: #ff5e00;
+}
+
+main .list .container .banner ul li .places {
+  color: green;
+}
+
+main .list .container .banner ul li .experience {
+  color: #00a2ff;
+}
+
+main .pertama {
+  margin-bottom: 50px;
+}
+
+main .pertama .container {
+  padding: 0px 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .pertama .container .card {
+  width: 570px;
+  -webkit-box-shadow: 0px 5px 15px 1px #cecccc;
+          box-shadow: 0px 5px 15px 1px #cecccc;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+main .pertama .container .card:hover {
+  width: 570px;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0px 5px 15px 8px #cecccc;
+          box-shadow: 0px 5px 15px 8px #cecccc;
+}
+
+main .pertama .container .card:hover a img {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+main .pertama .container .card:hover .card-body {
+  background-color: white;
+  padding: 10px 20px 50px 20px;
+}
+
+main .pertama .container .card:hover .card-body .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+main .pertama .container .card:hover .card-body .profile img {
+  border-radius: 30px;
+}
+
+main .pertama .container .card:hover .card-body .profile a {
+  text-decoration: none;
+  color: #464545;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+main .pertama .container .card:hover .card-body .text a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+main .pertama .container .card:hover .card-body .icon {
+  background-color: #216121;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 490px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 15px 1px #363535;
+          box-shadow: 0px 0px 15px 1px #363535;
+}
+
+main .pertama .container .card a img {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+main .pertama .container .card .card-body {
+  background-color: white;
+  padding: 10px 20px 50px 20px;
+}
+
+main .pertama .container .card .card-body .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+main .pertama .container .card .card-body .profile img {
+  width: 40px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main .pertama .container .card .card-body .profile a {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+  color: #464545;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+main .pertama .container .card .card-body .text a {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Playfair Display';
+}
+
+main .pertama .container .card .card-body .icon {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #216121;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 490px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 15px 1px #363535;
+          box-shadow: 0px 0px 15px 1px #363535;
+}
+
+main .rest {
+  margin-bottom: 70px;
+}
+
+main .rest .bg {
+  background: url("https://adventure.com/wp-content/uploads/2021/02/Tasmania_adv-com_Drive-to-Researche-Bay_%C2%A9LiamNeal_Jan2021-7435-2-1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .rest .bg .lapis {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+main .rest .bg .lapis .container {
+  padding: 100px 400px 230px 400px;
+  text-align: center;
+}
+
+main .rest .bg .lapis .container .judul {
+  font-family: 'Playfir Display';
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+}
+
+main .rest .bg .lapis .container .read a {
+  text-decoration: none;
+  margin: 0 auto;
+  border: 1px solid white;
+  padding: 12px 55px;
+  color: white;
+  font-family: 'Raleway';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+main .rest .bg .lapis .container .read a:hover {
+  background-color: white;
+  color: black;
+}
+
+main .rest .bg .lapis .container .text {
+  margin-bottom: 50px;
+}
+
+main .rest .bg .lapis .container .text p a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1.5px;
+  font-size: 16px;
+}
+
+main .kedua {
+  margin-bottom: 50px;
+}
+
+main .kedua .container {
+  padding: 0px 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .kedua .container .card {
+  width: 570px;
+  -webkit-box-shadow: 0px 5px 15px 1px #cecccc;
+          box-shadow: 0px 5px 15px 1px #cecccc;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+main .kedua .container .card:hover {
+  width: 570px;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0px 5px 15px 8px #cecccc;
+          box-shadow: 0px 5px 15px 8px #cecccc;
+}
+
+main .kedua .container .card:hover a img {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+main .kedua .container .card:hover .card-body {
+  background-color: white;
+  padding: 10px 20px 50px 20px;
+}
+
+main .kedua .container .card:hover .card-body .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+main .kedua .container .card:hover .card-body .profile img {
+  border-radius: 30px;
+}
+
+main .kedua .container .card:hover .card-body .profile a {
+  text-decoration: none;
+  color: #464545;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+main .kedua .container .card:hover .card-body .text a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+main .kedua .container .card:hover .card-body .icon {
+  background-color: #216121;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 490px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 15px 1px #363535;
+          box-shadow: 0px 0px 15px 1px #363535;
+}
+
+main .kedua .container .card a img {
+  width: 100%;
+  margin-bottom: -3px;
+}
+
+main .kedua .container .card .card-body {
+  background-color: white;
+  padding: 10px 20px 50px 20px;
+}
+
+main .kedua .container .card .card-body .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+main .kedua .container .card .card-body .profile img {
+  width: 40px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+main .kedua .container .card .card-body .profile a {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+  color: #464545;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+main .kedua .container .card .card-body .text a {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Playfair Display';
+}
+
+main .kedua .container .card .card-body .icon {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #216121;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: 490px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 0px 15px 1px #363535;
+          box-shadow: 0px 0px 15px 1px #363535;
+}
+
+footer {
+  background: url("https://adventure.com/wp-content/themes/adventure_2017/assets/img/img-footer-01@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .container {
+  padding: 10px 70px;
+}
+
+footer .container .atas {
+  margin-bottom: 30px;
+}
+
+footer .container nav {
+  margin-bottom: 30px;
+}
+
+footer .container nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+footer .container nav ul li a {
+  text-decoration: none;
+  color: #636262;
+  font-size: 13px;
+  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container nav ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah {
+  margin-bottom: 370px;
+}
+
+footer .container .bawah ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+footer .container .bawah ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container .bawah ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah ul li .sosmed {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li .sosmed li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+footer .container .copyright {
+  text-align: right;
+}
+
+footer .container .copyright p {
+  color: white;
+  font-size: 11px;
+}
+/*# sourceMappingURL=style.css.map */

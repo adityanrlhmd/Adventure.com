@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+  margin: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  /* jika anda menggunakan safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  -webkit-box-shadow: 0px 5px 8px 1px #cecccc;
+          box-shadow: 0px 5px 8px 1px #cecccc;
+  background: white;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 35px;
+}
+
+header nav .kiri {
+  margin-right: 45px;
+}
+
+header nav .kiri ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kiri ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header nav .kiri ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #8f8f8f;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header nav .kiri ul li a:hover {
+  color: black;
+}
+
+header nav .tengah {
+  margin: 0 auto;
+}
+
+header nav .kanan {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+header nav .kanan ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kanan ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav .kanan ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  font-family: 'Playfair Display';
+}
+
+main .container {
+  padding: 50px 100px;
+}
+
+main .container .title {
+  text-align: center;
+}
+
+main .container .title h1 {
+  font-weight: bold;
+}
+
+main .container .text {
+  text-align: center;
+  padding: 20px 180px;
+}
+
+main .container .text p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+main .container .text-2 {
+  margin-bottom: 30px;
+}
+
+main .container .text-2 p {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+main .container .text-2 p i a {
+  text-decoration: none;
+  color: #8f8f8f;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+main .container .text-2 p i a:hover {
+  color: #d6d4d4;
+}
+
+main .container .tombol {
+  text-align: center;
+}
+
+main .container .tombol a {
+  text-decoration: none;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 12px 65px;
+  color: black;
+  font-family: 'Raleway';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+main .container .tombol a:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background: url("https://adventure.com/wp-content/themes/adventure_2017/assets/img/img-footer-01@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .container {
+  padding: 10px 70px;
+}
+
+footer .container .atas {
+  margin-bottom: 30px;
+}
+
+footer .container nav {
+  margin-bottom: 30px;
+}
+
+footer .container nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+footer .container nav ul li a {
+  text-decoration: none;
+  color: #353535;
+  font-size: 13px;
+  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container nav ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah {
+  margin-bottom: 370px;
+}
+
+footer .container .bawah ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+footer .container .bawah ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container .bawah ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah ul li .sosmed {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li .sosmed li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+footer .container .copyright {
+  text-align: right;
+}
+
+footer .container .copyright p {
+  color: white;
+  font-size: 11px;
+}
+/*# sourceMappingURL=kontak.css.map */
