@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+  margin: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  /* jika anda menggunakan safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  -webkit-box-shadow: 0px 5px 8px 1px #cecccc;
+          box-shadow: 0px 5px 8px 1px #cecccc;
+  background: white;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 35px;
+}
+
+header nav .kiri {
+  margin-right: 45px;
+}
+
+header nav .kiri ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kiri ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header nav .kiri ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #8f8f8f;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+header nav .kiri ul li a:hover {
+  color: black;
+}
+
+header nav .tengah {
+  margin: 0 auto;
+}
+
+header nav .kanan {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+header nav .kanan ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav .kanan ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav .kanan ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin-bottom: 100px;
+  padding-top: 30px;
+  font-family: 'Playfair Display';
+  letter-spacing: 1px;
+}
+
+main .container .title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main .container .title h1 {
+  letter-spacing: 1px;
+}
+
+main .container .form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+main .container .form .teks {
+  margin-bottom: 2rem;
+}
+
+main .container .form .form-first .first {
+  width: 100%;
+  padding: .75rem;
+  font-style: italic;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #bcc3ca;
+  background-color: #fff;
+  color: #4e4949;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: background-color .15s, border-color .15s;
+  transition: background-color .15s, border-color .15s;
+}
+
+main .container .form .form-first .first:focus {
+  border: 1px solid #898d8c;
+}
+
+main .container .form .form-last .last {
+  width: 100%;
+  padding: .75rem;
+  font-style: italic;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #bcc3ca;
+  background-color: #fff;
+  color: #4e4949;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: background-color .15s, border-color .15s;
+  transition: background-color .15s, border-color .15s;
+}
+
+main .container .form .form-last .last:focus {
+  border: 1px solid #898d8c;
+}
+
+main .container .form .form-email .email {
+  width: 100%;
+  padding: .75rem;
+  font-style: italic;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #bcc3ca;
+  background-color: #fff;
+  color: #4e4949;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: background-color .15s, border-color .15s;
+  transition: background-color .15s, border-color .15s;
+}
+
+main .container .form .form-email .email:focus {
+  border: 1px solid #898d8c;
+}
+
+main .container .form .form-password .password {
+  width: 100%;
+  padding: .75rem;
+  font-style: italic;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #bcc3ca;
+  background-color: #fff;
+  color: #4e4949;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: background-color .15s, border-color .15s;
+  transition: background-color .15s, border-color .15s;
+}
+
+main .container .form .form-password .password:focus {
+  border: 1px solid #898d8c;
+}
+
+main .container .form .form-bawah {
+  margin-top: 15px;
+}
+
+main .container .form .form-bawah .atas .create {
+  text-align: center;
+}
+
+main .container .form .form-bawah .atas .create .link-atas {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-transform: uppercase;
+  background-color: #b3b6b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: .6px;
+  padding: 7px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+main .container .form .form-bawah .atas .create .link-atas:hover {
+  background-color: #686666;
+}
+
+main .container .form .form-bawah .bawah {
+  margin-top: 25px;
+}
+
+main .container .form .form-bawah .bawah .cancel {
+  text-align: center;
+}
+
+main .container .form .form-bawah .bawah .cancel .link-atas {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  text-transform: uppercase;
+  background-color: #b3b6b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: .6px;
+  padding: 7px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+main .container .form .form-bawah .bawah .cancel .link-atas:hover {
+  background-color: #686666;
+}
+
+footer {
+  background: url("https://adventure.com/wp-content/themes/adventure_2017/assets/img/img-footer-01@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .container {
+  padding: 10px 70px;
+}
+
+footer .container .atas {
+  margin-bottom: 30px;
+}
+
+footer .container nav {
+  margin-bottom: 30px;
+}
+
+footer .container nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+footer .container nav ul li a {
+  text-decoration: none;
+  color: #353535;
+  font-size: 13px;
+  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container nav ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah {
+  margin-bottom: 370px;
+}
+
+footer .container .bawah ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+footer .container .bawah ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .container .bawah ul li a:hover {
+  color: #8f8f8f;
+}
+
+footer .container .bawah ul li .sosmed {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer .container .bawah ul li .sosmed li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+footer .container .copyright {
+  text-align: right;
+}
+
+footer .container .copyright p {
+  color: white;
+  font-size: 11px;
+}
+/*# sourceMappingURL=register.css.map */
